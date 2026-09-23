@@ -7,7 +7,7 @@ public class SteamManager : MonoBehaviour
     {
         try
         {
-            if (!SteamClient.IsValid) SteamClient.Init(3730930);
+            if (!SteamClient.IsValid) SteamClient.Init(480);
             Debug.Log($"Steam initialized for user: {SteamClient.Name}");
         }
         catch (System.Exception e) 
